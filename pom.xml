@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.ngloader</groupId>
+	<artifactId>helixcloud</artifactId>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<revision>0.0.1-alpha</revision>
+		<maven.compiler.source>15</maven.compiler.source>
+		<maven.compiler.target>15</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<helixcloud.version>0.0.1</helixcloud.version>
+
+		<netty.version>4.1.54.Final</netty.version>
+		<gson.version>2.8.4</gson.version>
+		<log4j.version>2.14.1</log4j.version>
+	</properties>
+
+	<modules>
+		<module>helixcloud-master</module>
+		<module>helixcloud-client</module>
+		<module>helixcloud-network</module>
+		<module>helixcloud-common</module>
+		<module>helixcloud-server</module>
+		<module>helixcloud-command</module>
+		<module>helixcloud-api</module>
+		<module>helixcloud-plugin</module>
+		<module>helixcloud-plugin-example</module>
+		<module>helixcloud-plugin-example2</module>
+	</modules>
+
+	<developers>
+		<developer>
+			<id>NgLoader</id>
+			<name>Nils</name>
+			<organization>TeamWuffy</organization>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+</project>
